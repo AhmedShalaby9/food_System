@@ -9,10 +9,8 @@ import 'package:garson_app/ui/user/menu/menu_Screen.dart';
 import 'blocs/authentication/authentication_.States.dart';
 import 'blocs/authentication/authentication_bloc.dart';
 import 'ui/admin/admin.dart';
-import 'package:easy_localization/easy_localization.dart';
 
 Controller controller;
-
 class App extends StatefulWidget {
   @override
   _AppState createState() => _AppState();
